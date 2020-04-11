@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-04-11 10:15:13">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>This Update set contains the following:
+
+Widgets:
+- Calendar [new widget to show the calender on the event booking form, to show the calendar dynamically to the user in realtime and check the avaiable dates for that month selected by the user]
+
+Variables:
+- New variable on Event Booking Form, Calendar Widget
+
+Scripts and Client Scripts:
+- New Catalog Client Script added to run whenever user makes change to the Date and Time field of the Even Registeration  Form, to check if the date is avaiable or not and to also check if the date is not in past
+- New Script Include created with the function to check the reserved dates and check the selection made in furture dates only on the form</description>
+<inserted/>
+<name>Comp - 231 version 5</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>598666c62fccd850d5b2d3f62799b6f1</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-11 10:15:13</sys_created_on>
+<sys_id>783731a62f485c50d5b2d3f62799b6f3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-11 10:15:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_0a28e64a2fccd850d5b2d3f62799b6e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Event Booking Form">e4ad65312f8c9850d5b2d3f62799b650</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>widget_1</name><order>1450</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Widget 1</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>u_event_bookings</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget display_value="comp231_calendar">0a6766c62fccd850d5b2d3f62799b605</sp_widget><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-10 00:33:07</sys_created_on><sys_id>0a28e64a2fccd850d5b2d3f62799b6e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Widget 1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_0a28e64a2fccd850d5b2d3f62799b6e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-10 00:33:07</sys_updated_on><table/><tooltip/><type>14</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=0a28e64a2fccd850d5b2d3f62799b6e9"/><fx_price action="delete_multiple" query="id=0a28e64a2fccd850d5b2d3f62799b6e9"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>0a28e64a2fccd850d5b2d3f62799b6e9</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-10 00:33:07</sys_created_on><sys_id>90686e0a2fccd850d5b2d3f62799b644</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-10 00:33:07</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>0a28e64a2fccd850d5b2d3f62799b6e9</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-10 00:33:07</sys_created_on><sys_id>5c686e0a2fccd850d5b2d3f62799b642</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-10 00:33:07</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>488225080</payload_hash>
+<remote_update_set display_value="Comp - 231 version 5">783731a62f485c50d5b2d3f62799b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-11 10:15:13</sys_created_on>
+<sys_id>343731a62f485c50d5b2d3f62799b6f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17161812d550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-11 10:15:13</sys_updated_on>
+<table/>
+<target_name>Widget 1</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>5068ea4aa7ccd8508039119b8f687b52</update_guid>
+<update_guid_history>5068ea4aa7ccd8508039119b8f687b52:488225080</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_93fc1dae2fc45c50d5b2d3f62799b6ab</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Event Booking Form"&gt;e4ad65312f8c9850d5b2d3f62799b650&lt;/cat_item&gt;&lt;cat_variable&gt;IO:92737d352f8c9850d5b2d3f62799b60a&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Selected date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    g_form.hideAllFieldMsgs();
+	
+	//GlideAjax call to server to check if the selected date is already taken
+    var ga = new GlideAjax('CheckSelectedDate');
+    ga.addParam('sysparm_name', 'checkBookings');
+    ga.addParam('sysparm_date_time', g_form.getValue("date_and_time"));
+    ga.getXMLAnswer(getResponse);
+
+	//Call back function for first GlideAjax
+    function getResponse(answer) {
+
+        if (answer == "true") {
+            g_form.setValue("date_and_time", "");
+            g_form.showFieldMsg("date_and_time", "The date you selected has been already booked. Please select another date or contact the Photographer directly.");
+        } else {
+			//GlideAjax call to server to check if the selected date is in the past
+            var gaj = new GlideAjax('CheckSelectedDate');
+            gaj.addParam('sysparm_name', 'checkPastDate');
+            gaj.addParam('sysparm_end_date', g_form.getValue("date_and_time"));
+            gaj.getXMLAnswer(getResponseNew);
+
+        }
+    }
+
+	//Call back function for second GlideAjax
+    function getResponseNew(answerNew) {
+		if (answerNew &lt; 0) {
+            g_form.setValue("date_and_time", "");
+            g_form.showFieldMsg("date_and_time", "Please select the date in future.");
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-11 08:55:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;93fc1dae2fc45c50d5b2d3f62799b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Selected date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_93fc1dae2fc45c50d5b2d3f62799b6ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-11 10:09:21&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1809730505</payload_hash>
+<remote_update_set display_value="Comp - 231 version 5">783731a62f485c50d5b2d3f62799b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-11 10:15:13</sys_created_on>
+<sys_id>7c3731a62f485c50d5b2d3f62799b6f3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17168b7182a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-11 10:15:13</sys_updated_on>
+<table/>
+<target_name>Selected date</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>83d5796680485c507b33dd49afb15d99</update_guid>
+<update_guid_history>83d5796680485c507b33dd49afb15d99:-1809730505,4532fd6283485c5075e62e5eb03bb9cf:1736273929,9d21f16227485c50004b83797404150e:-1425818247,beb0b522b9485c50c11ff2d70813972a:1375971697,834075ae1f085c503480ecf484f3c105:-231120201,0f4e65aefc085c50e6fad38314b6ea20:572657296,022e65ae20085c50639fdf8e9ab6c81b:-943203316,1c0ee1aeae085c50d77799fe7d04a4d7:810760126,aefd616e9c085c501a8bce73b5c7fcd7:-1015088106,04ad296ed5085c5023fa58d9df2a9f32:-1676526416,958de96e61085c50c96901ad85c2c67b:418157456,356d616ede085c50967ccef3bc7df494:-596153936,144d256e87085c5093cc350412ff2cf9:1099367807,c3ec296ad2085c50bb8fd0c9d99780f2:579851639,37cce12e59085c50d5f91fabe2d03059:705362839,029c6d6adb085c50a8d40d44ed07884d:-341869382,e116e1a6a8085c503b98e01793bc9e64:1768487817,5ba5a1a608085c50bd530d8c4c2dcb69:547718377,9d3521a6ea085c50b11021a2058cf74c:1153643847,bb05ade296085c50fc3887d4b2b3fdde:266260598,24e42d668b085c5030ecf8eefbf94b85:-122463272</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_f1b061a22f085c50d5b2d3f62799b695</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.CheckSelectedDate&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;CheckSelectedDate&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var CheckSelectedDate = Class.create();
+CheckSelectedDate.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	//function to check if the date selected is already booked by another client
+    checkBookings: function() {
+        var bookingExists = false;
+
+        var selected_date = this.getParameter('sysparm_date_time');
+        var date = new GlideDateTime(selected_date).getDate();
+        var y = date.getYear();
+        var m = date.getMonth();
+        m = ('0' + m).slice(-2);
+        var d = date.getDayOfMonthUTC();
+        d = ('0' + d).slice(-2);
+        
+        var strQry = "u_date_and_timeON" + y + "-" + m + "-" + d + "@javascript:gs.dateGenerate('" + y + "-" + m + "-" + d + "','start')@javascript:gs.dateGenerate('" + y + "-" + m + "-" + d + "','end')";
+
+        var gr = new GlideRecord("u_event_bookings");
+        gr.addEncodedQuery(strQry);
+        gr.query();
+
+        while (gr.next()) {
+            bookingExists = true;
+        }
+
+        return bookingExists;
+    },
+
+	//Check if the selected date is in the past
+    checkPastDate: function() {
+        var ActualEndDate = this.getParameter('sysparm_end_date');
+		ActualEndDate = new GlideDateTime(ActualEndDate).getDate();
+        return parseInt(gs.dateDiff(gs.now(), ActualEndDate, true) / 86400);
+    },
+
+    type: 'CheckSelectedDate'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-11 08:37:21&lt;/sys_created_on&gt;&lt;sys_id&gt;f1b061a22f085c50d5b2d3f62799b695&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;CheckSelectedDate&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f1b061a22f085c50d5b2d3f62799b695&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-11 10:07:45&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1749281638</payload_hash>
+<remote_update_set display_value="Comp - 231 version 5">783731a62f485c50d5b2d3f62799b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-11 10:15:13</sys_created_on>
+<sys_id>b83731a62f485c50d5b2d3f62799b6f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17168b59eb20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-11 10:15:13</sys_updated_on>
+<table/>
+<target_name>CheckSelectedDate</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>5f7571e2ad485c50edeab0f3ef054b6f</update_guid>
+<update_guid_history>5f7571e2ad485c50edeab0f3ef054b6f:-1749281638,9702f56247485c502354fb54f6f053df:1206738848,4150f5ae6e085c509547c9e159be3782:1163262557,2709656aad085c50f3361452c5bccae2:1531594234,6a88256a80085c50d9d67c93127ba37e:1580166382,7587a12a98085c50443de84f04fa00f8:1847766912,9b472de67d085c500dea04cd530e922a:-782165815,87c669a6d0085c50c4ba433e9443ae6b:859458693,d333ede22f085c50c16627af01241236:1410910267,57c025eeecc45c50d99da6b6f2d7df47:-1924608514</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_0a6766c62fccd850d5b2d3f62799b605</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, spUtil) {
+    /* widget controller */
+    var c = this;
+
+	//Watch function to set the focus on the form field and trigger when it changes
+    $scope.$watch(function() {
+            return ($scope.page.g_form.getValue('date_and_time'));
+        },
+        $scope.runThisFunction = function(value) {
+            c.data.date_and_time = value;
+		//updating the server with new values
+            c.server.update().then(function(response) {
+                spUtil.update($scope);
+
+				//List of variables being used to do the calculations
+                $scope.calVal = [];
+                $scope.striker = [];
+                $scope.currentMonth = $scope.data.currentMonth;
+                $scope.currentYear = $scope.data.currentYear;
+                $scope.currentDay = $scope.data.currentDay;
+                $scope.currentDate = $scope.data.currentDate;
+				$scope.today = $scope.data.today;
+				$scope.strikerValueDate = $scope.data.strikerValueDate;
+				$scope.strikerValueDay = $scope.data.strikerValueDay;
+				$scope.strikerValueMonth = $scope.data.strikerValueMonth;
+				$scope.strikerValueYear = $scope.data.strikerValueYear;
+				$scope.reservedAndBlockedDates = $scope.data.reservedAndBlockedDates;
+                $scope.text = "These are the available dates for " + $scope.currentMonth + " " + $scope.currentYear;
+
+                var monthStart = $scope.data.monthStartDay;
+                var numbering = 1;
+				//loop to set the dates on the calendar
+                for (var i = 1; i &lt; 43; i++) {
+                    $scope.striker[i] = false;
+					
+					if (numbering &lt; $scope.today &amp;&amp; $scope.strikerValueMonth == 0 &amp;&amp; $scope.strikerValueYear == 0) {
+                        $scope.striker[i] = true;
+                    }
+                    if (i &lt; 7) {
+                        if (monthStart == i) {
+                            $scope.calVal[i] = numbering;
+							if($scope.reservedAndBlockedDates.indexOf(numbering)&gt;-1){
+								$scope.striker[i] = true;
+							}
+                            numbering++;
+                        } else if (monthStart &lt; i) {
+                            $scope.calVal[i] = numbering;
+							if($scope.reservedAndBlockedDates.indexOf(numbering)&gt;-1){
+								$scope.striker[i] = true;
+							}
+                            numbering++;
+                        } else if (monthStart &gt; i) {
+                            $scope.calVal[i] = " ";
+                            $scope.striker[i] = false;
+                        }
+                    } else {
+                        if (numbering &lt;= $scope.data.maxMonthDays) {
+                            $scope.calVal[i] = numbering;
+							if($scope.reservedAndBlockedDates.indexOf(numbering)&gt;-1){
+								$scope.striker[i] = true;
+							}
+                            numbering++;
+                        } else {
+                            $scope.calVal[i] = " ";
+                            $scope.striker[i] = false;
+                        }
+                    }
+					//check if the strike is needed on the date or not based on condition that its a date in the past
+					if($scope.strikerValueYear == -1){
+						$scope.striker[i] = true;
+					}else if($scope.strikerValueMonth == -1 &amp;&amp; $scope.strikerValueYear == 0){
+						$scope.striker[i] = true;
+					}
+                }
+
+
+            });
+
+        });
+
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.center{
+  text-align: center;
+}
+
+.notvalid{
+  color: red;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;comp231_calendar&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;comp231_calendar&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[//Server Side Function
+(function() {
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+	
+	//Notifying server to check the updated values send by client
+    var value;
+    if (input.date_and_time != '' &amp;&amp; input.date_and_time != null) {
+        value = input.date_and_time;
+    } else {
+        value = new GlideDateTime();
+    }
+
+	//List of Variables being used for calculations
+    data.maxMonthDays = 0;
+    data.currentMonth = getMonth(value);
+    data.currentMonthInNumber = new GlideDateTime(value).getMonth();
+    data.currentYear = getYear(value);
+    data.currentDay = getDay(value);
+    data.currentDate = new GlideDateTime(value).getDayOfMonth();
+	data.today = new GlideDateTime().getDayOfMonth();
+    data.monthStartDay = getMonthStartDay(data.currentDay, data.currentDate);
+    data.strikerValueDate = getStrikerValueDate(value);
+    data.strikerValueDay = getStrikerValueDay(value);
+    data.strikerValueMonth = getStrikerValueMonth(value);
+    data.strikerValueYear = getStrikerValueYear(value);
+	data.reservedAndBlockedDates = [];
+	updateResandBlockDates(value, data.maxMonthDays);
+	
+	//Get the list of reserved dates whenever the date is updated on the form
+	function updateResandBlockDates (parm1, max){
+		var parm2 = new GlideDateTime(parm1);
+		var m = parm2.getMonth();
+		m = ('0' + m).slice(-2);
+		var y = parm2.getYear();
+		var strQry = "u_date_and_time&gt;javascript:gs.dateGenerate('"+y+"-"+m+"-01','00:00:00')^u_date_and_time&lt;javascript:gs.dateGenerate('"+y+"-"+m+"-"+max+"','00:00:00')";
+		gs.log(strQry,"gv-test");
+		var gr = new GlideRecord("u_event_bookings");
+		gr.addEncodedQuery(strQry);
+		gr.query();
+		
+		while(gr.next()){
+			var temp = new GlideDateTime(gr.u_date_and_time).getDayOfMonth();
+			data.reservedAndBlockedDates.push(temp);
+		}
+		return;
+	}
+
+	//Gets the date value form the date-time for marking the date striked
+    function getStrikerValueDate(parm1) {
+        var dated = new GlideDateTime().getDate();
+        return dated.compareTo(new GlideDateTime(parm1).getDate());
+    }
+
+	//Gets the day value form the date-time for marking the date striked
+    function getStrikerValueDay(parm1) {
+        var dated = new GlideDateTime().getDayOfMonth();
+        var dated2 = new GlideDateTime(parm1).getDayOfMonth();
+		
+		if(dated &gt; dated2){
+			return -1;
+		}
+		if(dated &lt; dated2){
+			return 1;
+		}
+		if(dated == dated2){
+			return 0;
+		}
+		
+    }
+
+	//Gets the month value form the date-time for marking the date striked
+    function getStrikerValueMonth(parm1) {
+        var dated = new GlideDateTime().getMonth();
+        var dated2 = new GlideDateTime(parm1).getMonth();
+        if(dated &gt; dated2){
+			return -1;
+		}
+		if(dated &lt; dated2){
+			return 1;
+		}
+		if(dated == dated2){
+			return 0;
+		}
+    }
+
+	//Gets the year value form the date-time for marking the date striked
+    function getStrikerValueYear(parm1) {
+        var dated = new GlideDateTime().getYear();
+        var dated2 = new GlideDateTime(parm1).getYear();
+        if(dated &gt; dated2){
+			return -1;
+		}
+		if(dated &lt; dated2){
+			return 1;
+		}
+		if(dated == dated2){
+			return 0;
+		}
+    }
+
+	//Gets the week day when the months is starting
+    function getMonthStartDay(day, date) {
+        while (date &gt;= 7) {
+            date = date - 7;
+        }
+        day = day - date + 1;
+        return day;
+    }
+
+	//Check if the selected year is leap year or not
+    function leapYear(year) {
+        return ((year % 4 == 0) &amp;&amp; (year % 100 != 0)) || (year % 400 == 0);
+    }
+
+	//Get the day of the week for the selected date-time on the form
+    function getDay(parm1) {
+        var day = new GlideDateTime(parm1).getDayOfWeek();
+        var value = "";
+
+        if (day == 1) {
+            value = "Monday";
+        }
+        if (day == 2) {
+            value = "Tuesday";
+        }
+        if (day == 3) {
+            value = "Wednesday";
+        }
+        if (day == 4) {
+            value = "Thursday";
+        }
+        if (day == 5) {
+            value = "Friday";
+        }
+        if (day == 6) {
+            value = "Saturday";
+        }
+        if (day == 7) {
+            value = "Sunday";
+        }
+        return day;
+    }
+
+	//Get the month of the year for the selected date-time on the form
+    function getMonth(parm1) {
+        var month = new GlideDateTime(parm1).getMonth();
+        var value = "";
+
+        if (month == 1) {
+            value = "January";
+            data.maxMonthDays = 31;
+        }
+        if (month == 2) {
+            value = "February";
+            if (leapYear(getYear(parm1))) {
+                data.maxMonthDays = 29;
+            } else {
+                data.maxMonthDays = 28;
+            }
+        }
+        if (month == 3) {
+            value = "March";
+            data.maxMonthDays = 31;
+        }
+        if (month == 4) {
+            value = "April";
+            data.maxMonthDays = 30;
+        }
+        if (month == 5) {
+            value = "May";
+            data.maxMonthDays = 31;
+        }
+        if (month == 6) {
+            value = "June";
+            data.maxMonthDays = 30;
+        }
+        if (month == 7) {
+            value = "July";
+            data.maxMonthDays = 31;
+        }
+        if (month == 8) {
+            value = "August";
+            data.maxMonthDays = 31;
+        }
+        if (month == 9) {
+            value = "September";
+            data.maxMonthDays = 30;
+        }
+        if (month == 10) {
+            value = "October";
+            data.maxMonthDays = 31;
+        }
+        if (month == 11) {
+            value = "November";
+            data.maxMonthDays = 30;
+        }
+        if (month == 12) {
+            value = "December";
+            data.maxMonthDays = 31;
+        }
+        return value;
+    }
+
+	//Get the year for the selected date-time on the form
+    function getYear(parm1) {
+        var value = new GlideDateTime(parm1).getYear();
+        return value;
+    }
+})(data);]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-10 00:29:33&lt;/sys_created_on&gt;&lt;sys_id&gt;0a6766c62fccd850d5b2d3f62799b605&lt;/sys_id&gt;&lt;sys_mod_count&gt;115&lt;/sys_mod_count&gt;&lt;sys_name&gt;comp231_calendar&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_0a6766c62fccd850d5b2d3f62799b605&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-11 10:06:23&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+   &lt;!-- your widget template --&gt;
+  &lt;strong&gt;{{text}}&lt;/strong&gt;
+   &lt;table class="table-condensed"&gt;
+      &lt;thead&gt;
+         &lt;tr&gt;
+            &lt;th class="prev"&gt;&lt;/th&gt;
+            &lt;th colspan="5" class="picker-switch center"&gt;{{currentMonth}} {{currentYear}}&lt;/th&gt;
+            &lt;th class="next"&gt;&lt;/th&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+            &lt;th class="dow"&gt;Mo&lt;/th&gt;
+            &lt;th class="dow"&gt;Tu&lt;/th&gt;
+            &lt;th class="dow"&gt;We&lt;/th&gt;
+            &lt;th class="dow"&gt;Th&lt;/th&gt;
+            &lt;th class="dow"&gt;Fr&lt;/th&gt;
+            &lt;th class="dow"&gt;Sa&lt;/th&gt;
+            &lt;th class="dow"&gt;Su&lt;/th&gt;
+         &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+         &lt;tr&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[1]"&gt;{{calVal[1]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[1]"&gt;{{calVal[1]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[2]"&gt;{{calVal[2]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[2]"&gt;{{calVal[2]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[3]"&gt;{{calVal[3]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[3]"&gt;{{calVal[3]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[4]"&gt;{{calVal[4]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[4]"&gt;{{calVal[4]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[5]"&gt;{{calVal[5]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[5]"&gt;{{calVal[5]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[6]"&gt;{{calVal[6]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[6]"&gt;{{calVal[6]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[7]"&gt;{{calVal[7]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[7]"&gt;{{calVal[7]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[8]"&gt;{{calVal[8]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[8]"&gt;{{calVal[8]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[9]"&gt;{{calVal[9]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[9]"&gt;{{calVal[9]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[10]"&gt;{{calVal[10]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[10]"&gt;{{calVal[10]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[11]"&gt;{{calVal[11]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[11]"&gt;{{calVal[11]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[12]"&gt;{{calVal[12]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[12]"&gt;{{calVal[12]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[13]"&gt;{{calVal[13]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[13]"&gt;{{calVal[13]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[14]"&gt;{{calVal[14]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[14]"&gt;{{calVal[14]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[15]"&gt;{{calVal[15]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[15]"&gt;{{calVal[15]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[16]"&gt;{{calVal[16]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[16]"&gt;{{calVal[16]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[17]"&gt;{{calVal[17]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[17]"&gt;{{calVal[17]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[18]"&gt;{{calVal[18]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[18]"&gt;{{calVal[18]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[19]"&gt;{{calVal[19]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[19]"&gt;{{calVal[19]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[20]"&gt;{{calVal[20]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[20]"&gt;{{calVal[20]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[21]"&gt;{{calVal[21]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[21]"&gt;{{calVal[21]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[22]"&gt;{{calVal[22]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[22]"&gt;{{calVal[22]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[23]"&gt;{{calVal[23]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[23]"&gt;{{calVal[23]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[24]"&gt;{{calVal[24]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[24]"&gt;{{calVal[24]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[25]"&gt;{{calVal[25]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[25]"&gt;{{calVal[25]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[26]"&gt;{{calVal[26]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[26]"&gt;{{calVal[26]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[27]"&gt;{{calVal[27]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[27]"&gt;{{calVal[27]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[28]"&gt;{{calVal[28]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[28]"&gt;{{calVal[28]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[29]"&gt;{{calVal[29]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[29]"&gt;{{calVal[29]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[30]"&gt;{{calVal[30]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[30]"&gt;{{calVal[30]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[31]"&gt;{{calVal[31]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[31]"&gt;{{calVal[31]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[32]"&gt;{{calVal[32]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[32]"&gt;{{calVal[32]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[33]"&gt;{{calVal[33]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[33]"&gt;{{calVal[33]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[34]"&gt;{{calVal[34]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[34]"&gt;{{calVal[34]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[35]"&gt;{{calVal[35]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[35]"&gt;{{calVal[35]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[36]"&gt;{{calVal[36]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[36]"&gt;{{calVal[36]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[37]"&gt;{{calVal[37]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[37]"&gt;{{calVal[37]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[38]"&gt;{{calVal[38]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[38]"&gt;{{calVal[38]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[39]"&gt;{{calVal[39]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[39]"&gt;{{calVal[39]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[40]"&gt;{{calVal[40]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[40]"&gt;{{calVal[40]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[41]"&gt;{{calVal[41]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[41]"&gt;{{calVal[41]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td class="day"&gt;
+               &lt;div role="button" tabindex="-1"&gt;&lt;strike&gt;&lt;span class="notvalid" title="Not Available" ng-if="striker[42]"&gt;{{calVal[42]}}&lt;/span&gt;&lt;/strike&gt;&lt;span title="Available" ng-if="!striker[42]"&gt;{{calVal[42]}}&lt;/span&gt;&lt;/div&gt;
+            &lt;/td&gt;
+         &lt;/tr&gt;
+      &lt;/tbody&gt;
+   &lt;/table&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>805086332</payload_hash>
+<remote_update_set display_value="Comp - 231 version 5">783731a62f485c50d5b2d3f62799b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-11 10:15:13</sys_created_on>
+<sys_id>f43731a62f485c50d5b2d3f62799b6f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17168b45f480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-11 10:15:13</sys_updated_on>
+<table/>
+<target_name>comp231_calendar</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>ef25f1e21e485c50a030f332dcdd803e</update_guid>
+<update_guid_history>ef25f1e21e485c50a030f332dcdd803e:805086332,71c9d96a90c45c507097d175de04efdf:-1701083648,9d4991eaf7c45c503a30a43d6b3c8900:1638692999,f2a81d6a49c45c50d758335056d3c448:144622634,52b7d96a10c45c506515fb1c1440b6d6:1908059542,38a7996a06c45c502629af5f8fdd1847:-782613705,9487d9661ac45c5047dc106b33528df8:1675334917,5426096a13845c5019d0d97528742268:532287275,7ee4412a21845c5048b693ca63c7f11b:2137211616,5c64092a4b845c50feec51b9b3a23ef1:-1729861478,c1930966ce845c506098295d3d44d1f1:-2070007270,7d238966b8845c502e58d82a7227d5c9:1564506669,ae42cd26da845c5056b7ec2051bdf910:403098354,1fa189660d845c50ae42a6bc6f3e32bd:-1355039438,27810da233845c504cb1c297c38122a0:438079029,fed001aefe445c506533ab12d94ed540:689896527,c26e30a2ac845c504a85c59b392147f7:1178227339,ed9d30a292845c50016dac443583a797:1357511674,905df42288845c50d3f4a133bc726104:-15136116,1c4df862fc845c50cc257af36d59c13f:-383786457,e43c3422c6845c50d01bc4e336cc3396:134248740,bedb3422cd845c50d896893229d0138f:-1055665150,6f49fc6e37445c508f42a4c90cdec57e:1168810214,ca39302e24445c50f4fd499df7523ec5:1602337465,1b28306e25445c50597b4ece888eb049:562314048,5d28fc2eb3445c50f7c9fcaaf07340cd:1873981848,6de7342ea0445c5074da5d3e68b949c8:1558502697,93b7786611445c5035d9b741de9b5ba2:736371049,2097bc2a6e445c50d0ffaec8a5b351dc:131125640,0987b86625445c50937b76fc360ae180:-250293942,3037b02ede445c50f56d36777c7d5227:727946558,dfc6f8aaf3445c503d7b62ceb434f1f8:1847312179,d795f8aa4d445c50a3e437ad49d7c6f1:-1940828104,daff2866d6445c50f0be4c9e4720e312:1784019607,d10f206664445c5048fb53ac38af6913:-713309632,00bea82672445c50974d86a4a05924c7:-492565971,8a9de8e23c445c50aa623fbc742f2087:1273732850,babce46238445c50ebb46fb9fddc18f2:572487775,441c64a24d445c502f9414714d9e23b5:357000014,568b606286445c504f942fbe768d8c7c:-1355734168,527b2c62bc445c508d1c01339a11c7b6:-1658286676,002b6c220f445c50b79026cd80d2cbbe:-434996378,10faec2248445c50550d6229156a7e01:-344395285,e9aaac2214445c501df91355466b2360:-1581693426,011ae42208445c505a9c07ad1c292d96:-1012144704,c3e96422f5445c50033d0c0f860fbd41:-1757090346,7157acea5e045c50f0aa5fc0c7e10e95:-1058103547,d837acea29045c50caff7754e22845a1:-938767463,0e166866cf045c50bac29f7848830c7f:-1733376477,4806ac2e41045c50407e7a831c331a27:-840717546,0b55ecaa37045c5064eb3182adc9ff9e:475794661,f7d4aceaa7045c50aec75fa3154d2d14:-600688731,72a3282a15045c50969f82d19842565b:1050997685,4e8228661e045c50891d985007dda067:1900465227,e882286684045c503086b12c2686f348:-2004734033,4ccd5866fb045c505b820e76d7fee773:-402689009,29add466d2045c50d514fbd849a8adcd:393292679,896d9c26b8045c50623f9345c20abb7e:-1662631693,903d14a2ac045c50b1e4599efb5f2797:1923083426,cdfc5c2629045c5049efdecc02016fa8:-10837496,beac582688045c50e119b3bf8b0eccaa:2082362836,910c98e234045c5024ef34dacc2fbb14:749618,9629d4622e045c501e47762866bdcc57:798007878,35edabda7e405c506093f62cbd1cf6f4:-971690310,fd4de39a81405c509ecee327888b506a:950389767,cddca31a5b405c506280efe31ee1fc19:-1575303071,166ce3d6e9405c50d93b705785f52006:1301590628,ce0ce3567c405c509fd30f760d0b9a40:161042328,4cab6f56c9405c50a7de4bdbb6f6da8d:-1905843844,038a6f565d405c5009320136069fd385:-2025804121,3c99e392b1405c50023c0e0b0040fef1:195477191,6319a392e2405c50ae34e5afcd3a3000:1822223300,21092f5258405c50e402da584f123719:-849706667,2fa66b5274405c5060233bc778a3d6cf:-236191115,a386231e70005c50500bc5eaf843bb33:-1195505499,f716abde32005c50ea700aeaaad5643f:1951807334,85066b5ed2005c50d7ac349b4f194775:1055532275,d5c3a35a0e005c50c1978e9bdc3c0f85:-699110531,83a3639abe005c503af9e9e2c47feb0f:304484166,44836b5a29005c50b48b5d49687ac414:413345601,03612b5a74005c50f3b91be1d0deb1bc:-492543188,47cddb56b2005c50ba7ad9c32e51889d:-2117286236,d18d539a68005c50e0e6cd86082357bf:-1421310560,d4ec1b5afd005c50436d43de714eb084:1035401659,8f7c939600005c506f54158aa1d919ca:-990466806,c5d99b1e06cc1c50915e7d5a9ccbc395:-1124470877,e91557da3fcc1c50a1cc9fee4d886191:-969545141,9b119b1e0acc1c5085d5bba30154315e:-802799718,6d1a9e1a950c1c505c1440e8d663c6b8:45439268,77291e56ba0c1c50d7d28306c00828f7:1958676654,4fa79e1a3b0c1c501aa0d6908029ebf3:529528395,58369e1ab20c1c502007a5a0ed990067:-1003652176,5e945e96620c1c50a6ba9473ecb1cbc9:-1450349174,42445e96ae0c1c5095e7e21e6391d8ea:-2129450764,0f34da56f90c1c505abb6f740185978c:-1714302633,67145e96930c1c508461781e1905efc2:145149261,d3725256e00c1c50efbad5ef124922c9:1512161933,816216564f0c1c50b9d398e8a617be4c:-2057733573,2b2212563a0c1c503ce3013fa9c118ff:-1693484854,72129e16b00c1c50e9b58cbc6218aecf:2134730698,c9a1d6160c0c1c50ba3e539dc30af793:545333322,b15702dae7c81c50fa8792f788c884ce:881574450,2827c61a1fc81c504d1d36659f42194c:-381816100,04d6c61a34c81c508f737f8e6b024628:-1926285906,be93421a14c81c50afc8d690dddd412a:437358191,8fae228e5eccd85000c09c88c56bc316:-528829492,381d228e86ccd8508baf3230ff302b12:1070219906,75fbae0eb5ccd850b7944d8a281910d4:2022011576,f7db6a0e19ccd850d18a70c6b8f26cfa:-1951251296,a8cb2e0e1accd8503d73ba8ce56b89ee:-926607381,428b2aca2bccd85008530feb09699595:644669513,4d5a6a0a5eccd850f48bdc9cb5f74ff3:1647888204,fac92e4a73ccd8505f0ddf4f414349e5:1808131600,8d79ae4a05ccd8505173bcbd9d5dc858:-8544644,0497e6c677ccd8505f8d88ae3c139933:1200721343</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
