@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-04-12 22:17:09">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>This Update set contains the following:
+
+Business Rule:
+- New script introduced to send out emails to the client/user whenever they submit a new request
+
+Email Notification and Template
+- New confirmation email notification designed with template to send out to client who make reservation
+
+Event
+- New event created to trigger the confirmation email notification to the client
+
+Variables:
+- Existing variable on Event Booking Form, Special Requests, corrected the name</description>
+<inserted/>
+<name>Comp - 231 version 6</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7a16cfaa2f4c5c50d5b2d3f62799b64e</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 22:17:09</sys_created_on>
+<sys_id>3d06610b2f04dc50d5b2d3f62799b604</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 22:17:09</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_2fd279352f8c9850d5b2d3f62799b62e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Event Booking Form">e4ad65312f8c9850d5b2d3f62799b650</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>special_requests</name><order>2600</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Special Requests</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>u_event_bookings</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 02:02:53</sys_created_on><sys_id>2fd279352f8c9850d5b2d3f62799b62e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Special Requests</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_2fd279352f8c9850d5b2d3f62799b62e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-11 16:55:20</sys_updated_on><table/><tooltip/><type>2</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=2fd279352f8c9850d5b2d3f62799b62e"/><fx_price action="delete_multiple" query="id=2fd279352f8c9850d5b2d3f62799b62e"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>2fd279352f8c9850d5b2d3f62799b62e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 02:02:53</sys_created_on><sys_id>69537d352f8c9850d5b2d3f62799b605</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 02:02:53</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>2fd279352f8c9850d5b2d3f62799b62e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 02:02:53</sys_created_on><sys_id>21537d352f8c9850d5b2d3f62799b605</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 02:02:53</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1504134132</payload_hash>
+<remote_update_set display_value="Comp - 231 version 6">3d06610b2f04dc50d5b2d3f62799b604</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 22:17:09</sys_created_on>
+<sys_id>3106610b2f04dc50d5b2d3f62799b605</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716a2ac76e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 22:17:09</sys_updated_on>
+<table/>
+<target_name>Special Requests</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>8ac297e6b38c5c50d7968f155eb693bf</update_guid>
+<update_guid_history>8ac297e6b38c5c50d7968f155eb693bf:1504134132,25537d35158c9850a759093a198bd708:1600131155</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_3eb6cbea2f4c5c50d5b2d3f62799b66e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>Confirmation Email</description><event_name>NewEventBookkingRecieved</event_name><fired_by>Business Rule</fired_by><queue/><suffix/><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-11 16:06:16</sys_created_on><sys_id>3eb6cbea2f4c5c50d5b2d3f62799b66e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NewEventBookkingRecieved</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysevent_register_3eb6cbea2f4c5c50d5b2d3f62799b66e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-11 16:06:16</sys_updated_on><table>u_event_bookings</table></sysevent_register></record_update>]]></payload>
+<payload_hash>-1767682020</payload_hash>
+<remote_update_set display_value="Comp - 231 version 6">3d06610b2f04dc50d5b2d3f62799b604</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 22:17:09</sys_created_on>
+<sys_id>3106610b2f04dc50d5b2d3f62799b606</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17169fddc310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 22:17:09</sys_updated_on>
+<table>u_event_bookings</table>
+<target_name>NewEventBookkingRecieved</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>1f874faa364c5c508a9e26fcec107e0f</update_guid>
+<update_guid_history>1f874faa364c5c508a9e26fcec107e0f:-1767682020</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_template_4449cb6e2f4c5c50d5b2d3f62799b65e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;u_event_bookings&lt;/collection&gt;&lt;email_layout/&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hi ${u_name},&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;We are happy to let you know that you event has been booked with 'Photography Company'. Please see the event details below:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse; width: 100%;" border="0"&gt;
+&lt;tbody&gt;
+&lt;tr valign="top"&gt;
+&lt;td style="width: 10%;"&gt;Organizer:&lt;/td&gt;
+&lt;td style="width: 50%;"&gt;${u_name}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="top"&gt;
+&lt;td style="width: 10%;"&gt;Contact:&lt;/td&gt;
+&lt;td style="width: 50%;"&gt;${u_contact}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="top"&gt;
+&lt;td style="width: 10%;"&gt;Email on File:&lt;/td&gt;
+&lt;td style="width: 50%;"&gt;${u_email}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="top"&gt;
+&lt;td style="width: 10%;"&gt;Event Type:&lt;/td&gt;
+&lt;td style="width: 50%;"&gt;${u_event_type}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="top"&gt;
+&lt;td style="width: 10%;"&gt;Event Venue:&lt;/td&gt;
+&lt;td style="width: 50%;"&gt;${u_event_venue_details}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="top"&gt;
+&lt;td style="width: 10%;"&gt;Date and Time:&lt;/td&gt;
+&lt;td style="width: 50%;"&gt;${u_date_and_time}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="top"&gt;
+&lt;td style="width: 10%;"&gt;Number of Hours:&lt;/td&gt;
+&lt;td style="width: 50%;"&gt;${u_number_of_hours}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="top"&gt;
+&lt;td style="width: 10%;"&gt;Special Requests:&lt;/td&gt;
+&lt;td style="width: 50%;"&gt;${u_special_requests}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Note: In case any if any information changes, please let us know via phone or email.&lt;br /&gt;&lt;br /&gt;Thank you for choosing Photography Company for capturing your special moments.&lt;br /&gt;&lt;br /&gt;--&lt;/p&gt;
+&lt;p&gt;Photographer&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;New Event Received Notification&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;Confirmation: ${u_event_type} on ${u_date_and_time}&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-11 16:14:11&lt;/sys_created_on&gt;&lt;sys_id&gt;4449cb6e2f4c5c50d5b2d3f62799b65e&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;New Event Received Notification&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_4449cb6e2f4c5c50d5b2d3f62799b65e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-11 16:54:43&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1527177762</payload_hash>
+<remote_update_set display_value="Comp - 231 version 6">3d06610b2f04dc50d5b2d3f62799b604</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 22:17:09</sys_created_on>
+<sys_id>7d06610b2f04dc50d5b2d3f62799b605</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716a2a36b60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 22:17:09</sys_updated_on>
+<table>u_event_bookings</table>
+<target_name>New Event Received Notification</target_name>
+<type>Email Template</type>
+<update_domain>global</update_domain>
+<update_guid>78a217e6678c5c50e24521b988adac8d</update_guid>
+<update_guid_history>78a217e6678c5c50e24521b988adac8d:1527177762,9a1ec3622a8c5c5033fe8c1f43aafcd3:-145418618,02cbcb6ee54c5c505c75df9883d20368:-1768663227,0b59876ef64c5c508a4dc700627b722c:247844680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_49a7cfaa2f4c5c50d5b2d3f62799b654</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="User Registration" name="User Registration"&gt;b69d02137f232200ee2e108c3ffa9160&lt;/category&gt;&lt;collection&gt;u_event_bookings&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;NewEventBookkingRecieved&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html/&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;NewEventBookingRecieved&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject/&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-11 16:08:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;49a7cfaa2f4c5c50d5b2d3f62799b654&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;NewEventBookingRecieved&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_49a7cfaa2f4c5c50d5b2d3f62799b654&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-11 16:27:51&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="New Event Received Notification"&gt;4449cb6e2f4c5c50d5b2d3f62799b65e&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>81743620</payload_hash>
+<remote_update_set display_value="Comp - 231 version 6">3d06610b2f04dc50d5b2d3f62799b604</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 22:17:09</sys_created_on>
+<sys_id>b906610b2f04dc50d5b2d3f62799b605</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716a119b9c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 22:17:09</sys_updated_on>
+<table>u_event_bookings</table>
+<target_name>NewEventBookingRecieved</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>db7cc7221f8c5c5079ae4920ef458fc4</update_guid>
+<update_guid_history>db7cc7221f8c5c5079ae4920ef458fc4:81743620,c5d80b6ed34c5c509ddef6eac88fc6f3:-1132383496,61f78beab54c5c500dbaed16e89173f1:-181494175</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_5508cf2e2f4c5c50d5b2d3f62799b627</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_event_bookings&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Trigger New Event Email&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	gs.eventQueue("NewEventBookkingRecieved",current,gs.getUserID());
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-11 16:10:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5508cf2e2f4c5c50d5b2d3f62799b627&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Trigger New Event Email&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_5508cf2e2f4c5c50d5b2d3f62799b627&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-11 16:10:24&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5508cf2e2f4c5c50d5b2d3f62799b627"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2125203509</payload_hash>
+<remote_update_set display_value="Comp - 231 version 6">3d06610b2f04dc50d5b2d3f62799b604</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 22:17:09</sys_created_on>
+<sys_id>f106610b2f04dc50d5b2d3f62799b606</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716a01a36c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 22:17:09</sys_updated_on>
+<table>u_event_bookings</table>
+<target_name>Trigger New Event Email</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>7778476ea94c5c50b52be3f720585ebd</update_guid>
+<update_guid_history>7778476ea94c5c50b52be3f720585ebd:-2125203509</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_producer_e4ad65312f8c9850d5b2d3f62799b650</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;Please provide complete details, as more accurate information will help us assist you better. In case of any questions or queries in regards to the packages and pricing please feel free to reach us at &lt;a href="mailto:customerservice&amp;#64;photographycompany.com?Subject&amp;#61;Question regarding my event" target="_top" rel="noopener noreferrer nofollow"&gt;customerservice&amp;#64;photographycompany.com&lt;/a&gt;&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;false&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Event Booking Form&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;post_insert_script/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=e4ad65312f8c9850d5b2d3f62799b650&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;redirect_url&gt;catalog_home&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;script&gt;&lt;![CDATA[//Saveing all the values in the Event Bookings Table
+
+current.u_name = producer.name;
+current.u_contact = producer.phone;
+current.u_date_and_time = producer.date_and_time;
+current.u_email = producer.email;
+current.u_event_type = producer.event_type;
+var parm1 = "";
+parm1 += producer.event_venue;
+parm1 += "\n"+producer.event_venue_city;
+parm1 += "\n"+producer.event_venue_postal_code;
+current.u_event_venue_details = parm1;
+current.u_number_of_hours = producer.number_of_hours;
+var parm2 = "";
+if(producer.cbk_phone == "true")
+	parm2 +=" Phone ";
+if(producer.cbk_text == "true")
+	parm2 +=" Text";
+if(producer.cbk_email == "true")
+	parm2 +=" Email ";
+current.u_preferred_contact_method = parm2;
+current.u_special_requests = producer.special_requests;
+
+producer.portal_redirect = "comp231?id=comp231_home";]]&gt;&lt;/script&gt;&lt;short_description&gt;Please use this form in order to make the reservation with the Photographer&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-09 01:43:20&lt;/sys_created_on&gt;&lt;sys_id&gt;e4ad65312f8c9850d5b2d3f62799b650&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Event Booking Form&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_e4ad65312f8c9850d5b2d3f62799b650&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-11 16:39:31&lt;/sys_updated_on&gt;&lt;table_name&gt;u_event_bookings&lt;/table_name&gt;&lt;template/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e4ad65312f8c9850d5b2d3f62799b650"/&gt;&lt;fx_price action="delete_multiple" query="id=e4ad65312f8c9850d5b2d3f62799b650"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;e4ad65312f8c9850d5b2d3f62799b650&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-09 01:43:20&lt;/sys_created_on&gt;&lt;sys_id&gt;43dea5712f8c9850d5b2d3f62799b6fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-09 01:43:20&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;e4ad65312f8c9850d5b2d3f62799b650&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-09 01:43:20&lt;/sys_created_on&gt;&lt;sys_id&gt;07dea5712f8c9850d5b2d3f62799b6fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-09 01:43:20&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1727834987</payload_hash>
+<remote_update_set display_value="Comp - 231 version 6">3d06610b2f04dc50d5b2d3f62799b604</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 22:17:09</sys_created_on>
+<sys_id>f506610b2f04dc50d5b2d3f62799b605</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716a1c4d4c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 22:17:09</sys_updated_on>
+<table>u_event_bookings</table>
+<target_name>Event Booking Form</target_name>
+<type>Record Producer</type>
+<update_domain>global</update_domain>
+<update_guid>da2f83e2f58c5c507c4cca0215fd69e7</update_guid>
+<update_guid_history>da2f83e2f58c5c507c4cca0215fd69e7:-1727834987,c8b482398bcc9850cf78b60c6fddf397:-1781170589,451ffdfdc78c9850b72bf431d2e71693:-51087673,a1ecfdfd7e8c985021b6fe673107904d:-367317719,ad3cf9bda38c9850e759c314f85db3a4:-1754486743,e8bbf9bdf88c9850c310de92d12cd4cf:-362242900,381fa971358c98503db58416034bacb7:-879980032,c5fe29fdf14c985003cd886b25526273:1680548553,07dea571728c9850bc26b8849366b2fe:1097482117</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
